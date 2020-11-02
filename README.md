@@ -1,6 +1,7 @@
 # relevance README
 
 This is the README for your extension "relevance". After writing up a brief description, we recommend including the following sections.
+Based on the sytax extensions created by @jgstew and @briangreenery (https://github.com/briangreenery/BigFix-Sublime-Extensions)
 
 ## Features
 
