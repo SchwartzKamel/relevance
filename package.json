@@ -1,0 +1,25 @@
+{
+    "name": "relevance",
+    "displayName": "BigFix Relevance",
+    "description": "Syntax highlighting for BigFix Relevance",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "relevance",
+            "aliases": ["BigFix Relevance", "relevance"],
+            "extensions": [".relevance"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "relevance",
+            "scopeName": "source.relevance",
+            "path": "./syntaxes/Relevance.tmLanguage"
+        }]
+    }
+}
